@@ -1,7 +1,10 @@
 public class Employee {
 	private int employeeId;
+	private String name;
 	
 	public Employee(){
+		this.employeeId = 1;
+		this.name = "Andres Bonifacio";
 	
 	}
 
@@ -9,7 +12,15 @@ public class Employee {
 		this.employeeId = employeeId;
 	}
 	
-	public vint getEmployeeId{
+	public int getEmployeeId{
 	return employeeId;
+	}
+	
+	public void setName(String Name){
+		this.name = name;
+	}
+	
+	public string getName{
+	return name;
 	}
 }
