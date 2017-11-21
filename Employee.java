@@ -4,7 +4,7 @@ public class Employee {
 	
 	public Employee(){
 		this.id = 1;
-		this.firstname = "Juan";
+		this.firstName = "Juan";
 	}
 
 	public void setEmployeeId(int employeeId){
@@ -15,7 +15,7 @@ public class Employee {
 	return Id;
 	}
 	public void setFirstName(String firsName){
-	this.firstName = firstname;
+	this.firstName = firstName;
 	}
 	public string getFirstName(){
 	return firstName;
